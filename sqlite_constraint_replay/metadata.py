@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Observer quand une transaction viole réellement ses clés étrangères', 'en': 'Observe when a transaction actually violates its foreign keys', 'es': 'Observar cuándo una transacción viola realmente sus claves foráneas'}

@@ -1,0 +1,16 @@
+{
+  "deferred": true,
+  "operations": [
+    {
+      "op": "insert",
+      "table": "child",
+      "id": 1,
+      "parent_id": 7
+    },
+    {
+      "op": "insert",
+      "table": "parent",
+      "id": 7
+    }
+  ]
+}

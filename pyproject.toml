@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-constraint-replay"
+version = "0.1.0a1"
+description = "FR: Observer quand une transaction viole réellement ses clés étrangères | EN: Observe when a transaction actually violates its foreign keys | ES: Observar cuándo una transacción viola realmente sus claves foráneas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-constraint-replay = "sqlite_constraint_replay.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_constraint_replay*"]
