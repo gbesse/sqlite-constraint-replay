@@ -13,11 +13,11 @@ python -m unittest discover -s tests -v
 
 ### Méthode et différence
 
-Exécute une transaction SQLite réelle avec clés étrangères immédiates ou différées ; sépare acceptation dune instruction et validation du commit, puis relit la base après rollback.
+Exécute une transaction SQLite réelle avec clés étrangères immédiates ou différées ; sépare acceptation d’une instruction et validation du commit, puis relit la base après rollback.
 
 ### Limites
 
-Deux tables de référence et opérations insert/delete seulement. Pas de migration en production, de concurrence multiconnexion ni de validation dun autre moteur.
+Deux tables de référence et opérations insert/delete seulement. Pas de migration en production, de concurrence multiconnexion ni de validation d’un autre moteur.
 
 ### Validation
 
